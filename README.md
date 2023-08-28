@@ -1,2 +1,2 @@
 # VLGU
-VLGU Website for a young group of dj from Argentina
+VLGU Website created for a group of dj from Argentina

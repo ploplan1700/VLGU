@@ -19,7 +19,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 height: 100vh;
-max-width: 350%;
+max-width: 100%;
 }
 body, h1, p{
 margin: 0%;
@@ -32,7 +32,7 @@ text-align: center;
 cursor: pointer;
 }
 .inicio h1 {
-    font-size: 13rem !important;
+    font-size: 7rem !important;
 
 }
 

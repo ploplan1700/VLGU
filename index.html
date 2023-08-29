@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VLGU</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!--Si ya lo incluyo aca no s necesario volver a abrir el tag script para escribir en jquery-->
+</head>
+<body class="index">
+<div class="inicio">
+    <a href="Inicio.html"></a>
+    <h1>VLGU</h1>
+    <p id="Boton1">Ingresar</p>
+</div>
+<script>
+    document.getElementById('Boton1').addEventListener('click', function() {
+        $('body').addClass('fade-in'); // Add fade-in animation class
+        setTimeout(function() {
+            window.location.href = 'VL.html';
+        }, 1000); // Tiempo de transicion
+    });
+</script>
+</script>
+</body>
+</html>
+</body>
+</html>

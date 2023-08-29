@@ -1,0 +1,102 @@
+/*Estilando la transicion entre los 2 pag .html */
+.fade-in {
+    animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
+
+/*aca termino la parte de estilar las 2 paginas de .html */
+.inicio{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+body, h1, p{
+margin: 0%;
+padding: 0;
+}
+.inicio a{
+text-decoration: none;
+color: #fff;
+text-align: center;
+cursor: pointer;
+}
+.inicio h1 {
+    font-size: 13rem !important;
+
+}
+
+.inicio p {
+    font-size: 1rem;
+}
+
+.index {
+background: linear-gradient(135deg, rgba(163, 163, 163, 0.8), rgba(56, 56, 56, 0.8));
+font-family:monospace;
+animation: colorshift 5s linear infinite;
+} /*Abajo con key frames voy a animar el background */
+@keyframes colorshift {
+    0% { color: #f5a400; }
+    20% { color: #f5a504; }
+    40% { color: #fafffa; }
+    60% { color: #ffffff; }
+    80% { color: #F2385A; }
+    100% { color: #F2385A; }
+}
+#Boton1:hover{ /*Cuando clikeas por arriba, estila al boton ingresar */
+background-color: #F2385A;
+}
+ 
+/*Aca voy a comenzar a estilar todo para lo que es VL.html que seria la pag principal */
+.VL{
+    background-color: black;
+    overflow: hidden;
+}
+
+  
+#Mauer{
+color: black;
+}
+
+.navbarvl {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(75, 75, 238), rgb(75, 75, 238), gold 33.33%, gold 66.66%, rgb(75, 75, 238));
+}
+
+.navbarvl a {
+    margin-left: 10px; /* Add some spacing between the icons */
+}
+
+.navbarvl img {
+    max-width: 40px; /* Adjust the size as needed */
+    height: auto;
+}
+.maincontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+}
+.footer{
+background-image: linear-gradient(to right, rgb(75, 75, 238), rgb(75, 75, 238), gold 33.33%, gold 66.66%, rgb(75, 75, 238));
+}
+
+
+
+
+
+
+
